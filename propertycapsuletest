@@ -1,0 +1,94 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.closeBrowser()
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.propertycapsule.com/')
+
+WebUI.click(findTestObject('Object Repository/sandytest/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/a_Deal Maker SignupLogin'))
+
+WebUI.click(findTestObject('Object Repository/sandytest/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/div_Continue with Linkedin'))
+
+WebUI.setText(findTestObject('Object Repository/sandytest/Page_LinkedIn Login, Sign in  LinkedIn/input_Welcome Back_session_key'), 
+    'ysanthosh675@gmail.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/sandytest/Page_LinkedIn Login, Sign in  LinkedIn/input_Welcome Back_session_password'), 
+    'MuJZiCYH1xzeYv5u4dTY3g==')
+
+WebUI.click(findTestObject('Object Repository/sandytest/Page_LinkedIn Login, Sign in  LinkedIn/button_Sign in'))
+
+WebUI.click(findTestObject('Object Repository/sandytest/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/i_add_circle'))
+
+WebUI.click(findTestObject('Object Repository/sandytest/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/div_Property'))
+
+WebUI.click(findTestObject('Object Repository/sandytest/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/div_334221133221327721223343322322542222231_744e19'))
+
+WebUI.click(findTestObject('Object Repository/sandytest/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/div'))
+
+WebUI.click(findTestObject('Object Repository/sandytest/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/div'))
+
+WebUI.click(findTestObject('Object Repository/sandytest/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/div'))
+
+WebUI.click(findTestObject('Object Repository/sandytest/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/div'))
+
+WebUI.click(findTestObject('Object Repository/sandytest/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/div'))
+
+WebUI.setText(findTestObject('Object Repository/sandytest/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/input_Required_form-input no-outline ng-unt_5ff22c'), 
+    'sandytest')
+
+WebUI.setText(findTestObject('Object Repository/sandytest/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/input_GLA (Approximate SF)_property-gla-input'), 
+    'erew')
+
+WebUI.setText(findTestObject('Object Repository/sandytest/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/textarea_Description_form-input no-outline _98f2e3'), 
+    'test')
+
+WebUI.click(findTestObject('Object Repository/sandytest/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/button_Next'))
+
+WebUI.setText(findTestObject('Object Repository/sandytest/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/input_GLA (Approximate SF)_property-gla-input'), 
+    '1234')
+
+WebUI.click(findTestObject('Object Repository/sandytest/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/button_Next'))
+
+WebUI.click(findTestObject('Object Repository/sandytest/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/span_Done'))
+
+WebUI.click(findTestObject('Object Repository/sandytest/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/path_close_Path_6785'))
+
+WebUI.click(findTestObject('Object Repository/sandytest/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/div_Apps                                   _948b53'))
+
+WebUI.click(findTestObject('Object Repository/sandytest/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/i_arrow_drop_down'))
+
+WebUI.click(findTestObject('Object Repository/sandytest/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/div_Logout'))
+
+WebUI.click(findTestObject('Object Repository/sandytest/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/a_Marketing Automation'))
+
+WebUI.click(findTestObject('Object Repository/sandytest/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/a_Map Maker'))
+
+WebUI.click(findTestObject('Object Repository/sandytest/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/a_Tourbooks'))
+
+WebUI.click(findTestObject('Object Repository/sandytest/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/a_Marketing Automation'))
+
+WebUI.click(findTestObject('Object Repository/sandytest/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/a_See for yourself'))
+
+WebUI.click(findTestObject('Object Repository/sandytest/Page_PROPERTY CAPSULE Retail  Commercial Re_361e89/i_close'))
+
+WebUI.closeBrowser()
+
